@@ -8,4 +8,4 @@ if [ -z "$1" ]; then
     exit 1
 fi
 
-find diary images -name "$1*" -print0 -exec git-se d {} \;
+find diary images -wholename "*$1*" -print0 -exec git-se d {} \;

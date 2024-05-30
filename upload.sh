@@ -5,7 +5,7 @@ set -euxo pipefail
 git-se e
 
 result=$(find diary images -name '*.md' | wc -l)
-if [ expr $result -gt 0 ]; then
+if [ $result -gt 0 ]; then
     printf "there should be no *.md files in diary and images\nbut found %d\n" $result
     exit 1
 fi
