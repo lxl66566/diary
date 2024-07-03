@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # decrypt one file.
 
 set -feuxo pipefail
