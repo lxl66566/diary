@@ -1,7 +1,3 @@
-path = "/home/absolutex/program/diary/git_simple_encrypt.toml"
 use_zstd = true
 zstd_level = 15
-crypt_list = [
-    "diary/**",
-    "images/**",
-]
+crypt_list = ["diary/**", "images/**"]
