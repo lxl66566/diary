@@ -15,7 +15,7 @@
 
 ## 加密
 
-使用我自己写的 `git-simple-encrypt v2.0`，密码与 bitwarden 一致。
+使用我自己写的 `git-simple-encrypt v3.0`，密码与 bitwarden 一致。
 
 ## 查看
 
