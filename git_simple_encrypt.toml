@@ -1,0 +1,3 @@
+use_zstd = true
+zstd_level = 15
+crypt_list = ["diary", "images"]
